@@ -1,9 +1,0 @@
-1. konto nauczyciela
-
-CREATE USER 'Jan'@'localhost' IDENTIFIED BY 'Jan123';
-GRANT SELECT ON szkola.* TO 'Jan'@'localhost';
-
-2. konto admina
-
-CREATE USER 'Dyrektor'@'localhost' IDENTIFIED BY 'Dyrektor123'; 
-GRANT ALL PRIVILEGES ON szkola.* TO 'Dyrektor'@'localhost' WITH GRANT OPTION; 
